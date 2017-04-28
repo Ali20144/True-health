@@ -59,43 +59,8 @@
 
 
 
-    <div class="row">
-        
-        <script language="JavaScript">
-<!--
-function calculateBmi() {
-var weight = document.bmiForm.weight.value
-var height = document.bmiForm.height.value
-if(weight > 0 && height > 0){	
-var finalBmi = weight/(height/100*height/100)
-document.bmiForm.bmi.value = finalBmi
-if(finalBmi < 18.5){
-document.bmiForm.meaning.value = "That you are too thin."
-}
-if(finalBmi > 18.5 && finalBmi < 25){
-document.bmiForm.meaning.value = "That you are healthy."
-}
-if(finalBmi > 25){
-document.bmiForm.meaning.value = "That you have overweight."
-}
-}
-else{
-alert("Please Fill in everything correctly")
-}
-}
-//-->
-</script>
-<section id="menu-2">
-        <div class="container">
-        <form name="bmiForm">
-Your Weight(kg): <input type="text" name="weight" size="10">
-Your Height(cm): <input type="text" name="height" size="10">
-<input type="button" value="Calculate BMI" onClick="calculateBmi()">
-Your BMI: <input type="text" name="bmi" size="10"><br><br>
-This Means: <input type="text" name="meaning" size="25">
-<input type="reset" value="Reset" />
-</form>
-        </div><br>         
+ <div class="yz-widget" data-secondary-color="#FFC107" data-alternate-text-color="#000000" data-alternate-background-color="#FFFFFF" data-unit-system="metric" data-primary-color="#ff704d" data-text-color="#212121" data-background-color="#EEEEEE" data-language="en" data-calculator-type="bmi"><span class="yz-copyright">Powered by <a href="https://www.yazio.com/en/bmi-calculator">YAZIO</a></span></div>
+<script src="https://widget.yazio.com/calculator.js" async></script>         
         </section>
 
 <footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-r" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
